@@ -81,6 +81,9 @@ void draw() {
   }
 
 
+// AXES
+
+
   rotateZ(angle);
   rotateY(angle);
   rotateX(angle);
@@ -169,6 +172,6 @@ void gui() {
   camera();
   kControl.draw();
   cam.setMinimumDistance(minCam);
-  cam.setMaximumDistance(maxCam);
+  cam.setMaximumDistance(maxCam);   //Solution to button placement in 2D, not 3D  
 }
 
