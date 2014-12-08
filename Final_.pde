@@ -2,7 +2,7 @@
 //                                         //
 //   KEIJI's CODE FINAL "EARTHCUBE/MYCUBE" //
 //                                         //
-//  Using peasycam and controlp5 libraries //
+//  Using peasycam and controlP5 libraries //
 //                                         //
 /////////////////////////////////////////////
 
