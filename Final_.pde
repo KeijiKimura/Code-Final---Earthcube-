@@ -12,6 +12,7 @@ import controlP5.*;
 import peasy.*;
 
 //I DO DECLAAARE.... 
+
 ControlP5 kControl;
 
 PeasyCam cam;
@@ -132,7 +133,7 @@ public void controlEvent (ControlEvent theEvent) {
   //BUTTONS AND INPUTS
 
   if (theEvent.controller() .name() =="bloom") {
-    print("working");
+    print("bloom working");
 
     dustSize += 1;
     angle += -.0085;
