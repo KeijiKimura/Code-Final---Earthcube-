@@ -59,7 +59,7 @@ void setup() {
         .setSize(35, 35);
 
   ;
-  kControl.setAutoDraw(false);   // Button drawing component    
+  kControl.setAutoDraw(false);   // Button drawing component
 }
 
 
@@ -81,7 +81,7 @@ void draw() {
   }
 
 
-// AXES
+  // AXES
 
 
   rotateZ(angle);
@@ -101,7 +101,7 @@ void draw() {
       for (int z = -50; z < 50; z+=10) {
 
 
-      // LAYERING 
+        // LAYERING 
         pushMatrix();
         translate(x, y, z); 
         boxTile();
@@ -123,13 +123,13 @@ void draw() {
 
 void boxTile() {
   fill(random(110));
-  box(random(10));
+  box(random(9));
 }
 
 public void controlEvent (ControlEvent theEvent) {
 
 
-  //BUTTONS AND INPUTS  
+  //BUTTONS AND INPUTS
 
   if (theEvent.controller() .name() =="bloom") {
     print("working");
@@ -172,6 +172,6 @@ void gui() {
   camera();
   kControl.draw();
   cam.setMinimumDistance(minCam);
-  cam.setMaximumDistance(maxCam);   //Solution to button placement in 2D, not 3D  
+  cam.setMaximumDistance(maxCam);   //Solution to button placement in 2D, not 3D
 }
 
